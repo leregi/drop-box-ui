@@ -72,7 +72,7 @@ const App = () => {
             <View style={{marginTop: 30, marginBottom: 15}}>
               <Text style={{fontSize: 18, color: '#9FA7B4'}}>Folders</Text>
             </View>
-            <SafeAreaView>
+            <SafeAreaView style={{ width: Dimensions.get('screen').width}}>
                 <FlatList 
                   showsHorizontalScrollIndicator={false}
                   horizontal={true}
